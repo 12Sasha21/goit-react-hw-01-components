@@ -1,0 +1,33 @@
+.transactions {
+  margin: 10px;
+}
+.transaction-history {
+  color: black;
+  width: 450px;
+  border-collapse: collapse;
+  border: 1px solid white;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+th {
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  background-color: #10bed4;
+  border: 1px solid white;
+  padding: 10px 0;
+}
+
+td {
+  color: rgb(134, 130, 130);
+  border: 1px solid rgb(233, 230, 230);
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(233, 230, 230);
+}
