@@ -3,8 +3,8 @@ import './Statistics.css';
 
 export default function Statistics({ title, stats }) {
   return (
-    <section className="statistics">
-      <h2 className="title">{title}</h2>
+    <div className="statistics">
+      {title && <h2 className="title">{title}</h2>}
 
       <ul className="stat-list">
         {stats.map(stat => (
@@ -14,7 +14,7 @@ export default function Statistics({ title, stats }) {
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 }
 

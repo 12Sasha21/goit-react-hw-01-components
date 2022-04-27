@@ -1,16 +1,12 @@
 .statistics {
-  margin-left: 25px;
-  margin-top: 25px;
+  margin: 15px;
   width: 335px;
-
   border: solid 1px rgb(211, 221, 221);
-
-  margin-left: 250px;
 }
 
 .title {
   font-size: 16p;
-  color: #333333;
+  color: #5a5858;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 25px;
@@ -24,7 +20,6 @@
 
 .stat-list__item {
   width: 70px;
-  border: solid 1px rgb(28, 0, 128);
 }
 
 .label {
@@ -32,6 +27,7 @@
   margin-bottom: 5px;
   display: flex;
   justify-content: space-evenly;
+  color: black;
 }
 
 .percentage {
