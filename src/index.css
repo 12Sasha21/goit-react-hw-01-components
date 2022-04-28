@@ -15,5 +15,6 @@ body {
 }
 
 .tasks {
-  display: flex;
+  display: inline-flex;
+  align-items: flex-start;
 }
